@@ -35,7 +35,9 @@ https://script.google.com/macros/s/xyz123/exec?key1=value1&key2=value2
 
 The script compares the key values with the column labels, creates a new row and adds data below. If it can't find a key, it leaves the cell as blank. 
 If the google sheet has been set up as per step 2: 
+
 https://script.google.com/macros/s/xyz123/exec?Red=415&Green=113&Blue=197&Brightness=127 adds values to all the columns.
+
 https://script.google.com/macros/s/xyz123/exec?Red=211&Brightness=199 leaves "Blue" and "Green" as empty.
 
 Note: Try it from your web browser and you shall see a "Success!" message. Please use 'anonymous' mode or sign out of Google before doing this because 

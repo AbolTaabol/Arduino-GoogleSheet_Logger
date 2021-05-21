@@ -1,6 +1,6 @@
 Arduino -> Google Sheet Logger
 
-This repo is a simple way to collect data from an Arduino on a google sheet. Please do the following steps to make this code work: 
+This repo is a simple way to collect data from an Arduino on a google sheet. Here are the steps to make this work: 
 
 1) Create a new Google sheet and give it a name.
 

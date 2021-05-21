@@ -30,11 +30,16 @@ This repo is a simple way to collect data from an Arduino on a google sheet. Her
 
 If your Web App URL is: https://script.google.com/macros/s/xyz123/exec
 
-Then your URL w/ parameters added would be: https://script.google.com/macros/s/xyz123/exec?key1=value1&key2=value2 
-(Example: https://script.google.com/macros/s/xyz123/exec?Red=415&Green=113&Blue=197&Brightness=127 )
+Then your URL w/ parameters added would be: 
+https://script.google.com/macros/s/xyz123/exec?key1=value1&key2=value2 
+
+The script compares the key values with the column labels, creates a new row and adds data below. If it can't find a key, it leaves the cell as blank. 
+If the google sheet has been set up as per step 2: 
+https://script.google.com/macros/s/xyz123/exec?Red=415&Green=113&Blue=197&Brightness=127 adds values to all the columns.
+https://script.google.com/macros/s/xyz123/exec?Red=211&Brightness=199 leaves "Blue" and "Green" as empty.
 
 Note: Try it from your web browser and you shall see a "Success!" message. Please use 'anonymous' mode or sign out of Google before doing this because 
-if you are signed in, Google adds a '/u/1' string in your request which causes an error. 
+if you are signed in, Google inserts a '/u/1' string in your request which causes an error. 
 <img width="170" alt="image" src="https://user-images.githubusercontent.com/19427655/119158193-f7dcda80-ba23-11eb-9d47-0848f582efdf.png">
 
 

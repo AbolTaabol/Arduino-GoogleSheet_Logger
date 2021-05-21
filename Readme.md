@@ -15,7 +15,7 @@ This repo is a simple way to collect data from an Arduino on a google sheet. Her
 
 5) Copy-paste the GoogleSheet_Logger.gs from the github repo. 
 
-6) In line 2, Add the URL of your spreadsheet and save the project.
+6) In line 2, Add the URL of your spreadsheet in your browser's address bar and save the project.
 
 7) The functions which write the data to the Google sheet need more persmissions before it can run. Select addRow from the function drop-down and click 'Run'
 <img width="506" alt="image" src="https://user-images.githubusercontent.com/19427655/119155722-771cdf00-ba21-11eb-8d47-430b025417bf.png">

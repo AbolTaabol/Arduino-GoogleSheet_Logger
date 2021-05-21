@@ -1,5 +1,5 @@
 //Variables for determining spread-sheets
-var ss = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/1iLS0ccUcoyxkN0HGbKOzUpfEBx4j7JRp5QJIE5bmPdg/edit#gid=0");
+var ss = SpreadsheetApp.openByUrl("Your Google Sheet URL here");
 var sheets = ss.getSheets();
 var sheet = sheets[0];
 

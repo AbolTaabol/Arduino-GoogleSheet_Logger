@@ -33,8 +33,8 @@ If your Web App URL is: https://script.google.com/macros/s/xyz123/exec
 Then your URL w/ parameters added would be: 
 https://script.google.com/macros/s/xyz123/exec?key1=value1&key2=value2 
 
-The script compares the key values with the column labels, creates a new row and adds data below. If it can't find a key, it leaves the cell as blank. 
-If the google sheet has been set up as per step 2: 
+The script compares the key values with the column labels, creates a new row and adds data below. It also adds a date and time-stamp in the final column. If it can't find a key, it leaves the cell as blank. 
+For example, if the google sheet has been set up as per step 2: 
 
 https://script.google.com/macros/s/xyz123/exec?Red=415&Green=113&Blue=197&Brightness=127 adds values to all the columns.
 
